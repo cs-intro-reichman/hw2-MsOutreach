@@ -21,7 +21,7 @@ public class Cheers {
                 System.out.println("Give me a  "+ upper + ": " + upper + "!");
             }
         }
-        System.out.println("What does that spell? ");
+        System.out.println("What does that spell?");
 
         for (int j = number ; j > 0 ; j--) {
             String uppercheer = cheer.toUpperCase();
