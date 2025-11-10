@@ -25,7 +25,7 @@ public class Cheers {
 
         for (int j = number ; j > 0 ; j--) {
             String uppercheer = cheer.toUpperCase();
-            System.out.println(uppercheer + "!");
+            System.out.println(uppercheer + "!!");
                 }
         
         }
