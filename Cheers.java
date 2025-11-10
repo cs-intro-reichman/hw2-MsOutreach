@@ -13,17 +13,19 @@ public class Cheers {
                 String cheer = args[0];
 
             for ( int i=0; i<cheer.length(); i++){
-                if (cheer.charAt(i) == ('A') || cheer.charAt(i) == ('E') || cheer.charAt(i) == ('F') || cheer.charAt(i) == ('H') || cheer.charAt(i) == ('I') || cheer.charAt(i) == ('L')|| cheer.charAt(i) == ('M')|| cheer.charAt(i) == ('N')|| cheer.charAt(i) == ('O')|| cheer.charAt(i) == ('R')|| cheer.charAt(i) == ('S')|| cheer.charAt(i) == ('X')){
-                    System.out.println("Give me an "+ cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
+               char upper = Character.toUpperCase(cheer.charAt(i));
+                if (upper == ('A') || upper == ('E') || upper == ('F') || upper == ('H') || upper == ('I') || upper == ('L')|| upper == ('M')|| upper == ('N')|| upper == ('O')|| upper == ('R')|| upper == ('S')|| upper == ('X')){
+                    System.out.println("Give me an "+ upper + ": " + upper + "!");
                 }
                 else {
-                System.out.println("Give me a  "+ cheer.charAt(i) + ": " + cheer.charAt(i) + "!");
+                System.out.println("Give me a  "+ upper + ": " + upper + "!");
             }
         }
         System.out.println("What does that spell? ");
 
         for (int j = number ; j > 0 ; j--) {
-            System.out.println(cheer + "!");
+            String uppercheer = cheer.toUpperCase();
+            System.out.println(uppercheer + "!");
                 }
         
         }
